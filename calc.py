@@ -1,8 +1,9 @@
 from tkinter import *
 
 wind = Tk()
-wind.title("Calculator")
 wind.geometry("270x330")
+wind.resizable(0,0)
+wind.title("Basic Calculator")
 
 text = Entry(wind,font=("arial", 16))
 text.pack(fill=X,padx=5,pady=5,ipady=5)
